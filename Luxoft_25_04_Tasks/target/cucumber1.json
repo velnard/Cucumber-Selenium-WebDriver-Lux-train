@@ -1,0 +1,581 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-27T14:54:19.114Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2489098500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "train_luxoft.com.steps.Hooks.strtDriver()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1993300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "train_luxoft.com.steps.Hooks.beforeFirstScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Checking that schedule webpage contains required buttons and visual elements",
+        "description": "",
+        "id": "this-feature-used-to-check-correctness-of-visited-pages;checking-that-schedule-webpage-contains-required-buttons-and-visual-elements",
+        "after": [
+          {
+            "result": {
+              "duration": 2034700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "train_luxoft.com.steps.Hooks.makeScreenshot(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 58337000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\u0027home page\u0027 is opened",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027home page\u0027",
+                  "offset": 0
+                }
+              ],
+              "location": "train_luxoft.com.steps.SolutionSteps.homePageIsOpened(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2366668900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on \u0027Schedule\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Schedule\u0027",
+                  "offset": 15
+                }
+              ],
+              "location": "train_luxoft.com.steps.SolutionSteps.userClicksOn(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 370907400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "this buttons displayed on \u0027Schedule\u0027 webpage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "displayed",
+                  "offset": 13
+                },
+                {
+                  "val": "Schedule",
+                  "offset": 27
+                }
+              ],
+              "location": "train_luxoft.com.steps.SolutionSteps.thisButtonsDisplayedOnNewWebpage(java.lang.String,java.lang.String,java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Schedule"
+                ]
+              },
+              {
+                "cells": [
+                  "Free seminars"
+                ]
+              },
+              {
+                "cells": [
+                  "Online-courses"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WebLuxoftTraining"
+          },
+          {
+            "name": "@Ex2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-27T14:54:24.902Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1731369300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "train_luxoft.com.steps.Hooks.strtDriver()"
+            }
+          },
+          {
+            "result": {
+              "duration": 841400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "train_luxoft.com.steps.Hooks.beforeSecondScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Checking that contact webpage contains required buttons and visual elements",
+        "description": "",
+        "id": "this-feature-used-to-check-correctness-of-visited-pages;checking-that-contact-webpage-contains-required-buttons-and-visual-elements",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "train_luxoft.com.steps.Hooks.makeScreenshot(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 997000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "train_luxoft.com.steps.Hooks.afterSecondScenarioId(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 50865900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "\u0027home page\u0027 is opened",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027home page\u0027",
+                  "offset": 0
+                }
+              ],
+              "location": "train_luxoft.com.steps.SolutionSteps.homePageIsOpened(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3809808200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user clicks on \u0027Contacts\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Contacts\u0027",
+                  "offset": 15
+                }
+              ],
+              "location": "train_luxoft.com.steps.SolutionSteps.userClicksOn(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 173389100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "this buttons displayed on \u0027Contacts\u0027 webpage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "displayed",
+                  "offset": 13
+                },
+                {
+                  "val": "Contacts",
+                  "offset": 27
+                }
+              ],
+              "location": "train_luxoft.com.steps.SolutionSteps.thisButtonsDisplayedOnNewWebpage(java.lang.String,java.lang.String,java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Moscow"
+                ]
+              },
+              {
+                "cells": [
+                  "Saint-Petersburg"
+                ]
+              },
+              {
+                "cells": [
+                  "Omsk"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2035617000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "this buttons not displayed on \u0027Contacts\u0027 webpage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "not displayed",
+                  "offset": 13
+                },
+                {
+                  "val": "Contacts",
+                  "offset": 31
+                }
+              ],
+              "location": "train_luxoft.com.steps.SolutionSteps.thisButtonsDisplayedOnNewWebpage(java.lang.String,java.lang.String,java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Екатеринбург"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WebLuxoftTraining"
+          },
+          {
+            "name": "@Ex3"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-27T14:54:32.728Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1591742300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "train_luxoft.com.steps.Hooks.strtDriver()"
+            }
+          },
+          {
+            "result": {
+              "duration": 5982900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "train_luxoft.com.steps.Hooks.beforeThirdScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "when user moves to \"Каталог\" webpage, he can find SQA-050 and SQA-051 courses.",
+        "description": "  Course is found when link with it\u0027s name displayed",
+        "id": "this-feature-used-to-check-correctness-of-visited-pages;when-user-moves-to-\"каталог\"-webpage--he-can-find-sqa-050-and-sqa-051-courses.;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 955700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "train_luxoft.com.steps.Hooks.makeScreenshot(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18918100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "\u0027home page\u0027 is opened",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027home page\u0027",
+                  "offset": 0
+                }
+              ],
+              "location": "train_luxoft.com.steps.SolutionSteps.homePageIsOpened(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1665829300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user clicks on \u0027Catalog\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Catalog\u0027",
+                  "offset": 15
+                }
+              ],
+              "location": "train_luxoft.com.steps.SolutionSteps.userClicksOn(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2194131000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "clicks \u0027Complex Programs\u0027 and types \u0027автомат\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Complex Programs",
+                  "offset": 8
+                },
+                {
+                  "val": "автомат",
+                  "offset": 37
+                }
+              ],
+              "location": "train_luxoft.com.steps.SolutionSteps.clicksAndTypesSearch(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34948800,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "this links displayed on \u0027Catalog\u0027 webpage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "displayed",
+                  "offset": 11
+                },
+                {
+                  "val": "Catalog",
+                  "offset": 25
+                }
+              ],
+              "location": "train_luxoft.com.steps.SolutionSteps.thisLinksDisplayedOnClickedWebpage(java.lang.String,java.lang.String,java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "\u0027автомат\u0027"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WebLuxoftTraining"
+          },
+          {
+            "name": "@Ex4"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-27T14:54:38.262Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1583765400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "train_luxoft.com.steps.Hooks.strtDriver()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "train_luxoft.com.steps.Hooks.beforeThirdScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "when user moves to \"Каталог\" webpage, he can find SQA-050 and SQA-051 courses.",
+        "description": "  Course is found when link with it\u0027s name displayed",
+        "id": "this-feature-used-to-check-correctness-of-visited-pages;when-user-moves-to-\"каталог\"-webpage--he-can-find-sqa-050-and-sqa-051-courses.;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "train_luxoft.com.steps.Hooks.makeScreenshot(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 19722400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "\u0027home page\u0027 is opened",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027home page\u0027",
+                  "offset": 0
+                }
+              ],
+              "location": "train_luxoft.com.steps.SolutionSteps.homePageIsOpened(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1479044100,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user clicks on \u0027Catalog\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Catalog\u0027",
+                  "offset": 15
+                }
+              ],
+              "location": "train_luxoft.com.steps.SolutionSteps.userClicksOn(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2207096300,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "clicks \u0027Complex Programs\u0027 and types \u0027SQA-050\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Complex Programs",
+                  "offset": 8
+                },
+                {
+                  "val": "SQA-050",
+                  "offset": 37
+                }
+              ],
+              "location": "train_luxoft.com.steps.SolutionSteps.clicksAndTypesSearch(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32910600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "this links displayed on \u0027Catalog\u0027 webpage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "displayed",
+                  "offset": 11
+                },
+                {
+                  "val": "Catalog",
+                  "offset": 25
+                }
+              ],
+              "location": "train_luxoft.com.steps.SolutionSteps.thisLinksDisplayedOnClickedWebpage(java.lang.String,java.lang.String,java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "\u0027SQA-050\u0027"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WebLuxoftTraining"
+          },
+          {
+            "name": "@Ex4"
+          }
+        ]
+      }
+    ],
+    "name": "This feature used to check correctness of visited pages",
+    "description": "",
+    "id": "this-feature-used-to-check-correctness-of-visited-pages",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/train_luxoft/com/features/solution.feature",
+    "tags": [
+      {
+        "name": "@WebLuxoftTraining",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

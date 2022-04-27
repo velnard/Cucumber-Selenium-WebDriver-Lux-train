@@ -1,0 +1,16 @@
+{
+  "buildNumbers" : [ "2022-04-27T14:53:40Z" ],
+  "passedFeatures" : [ 1 ],
+  "failedFeatures" : [ 0 ],
+  "totalFeatures" : [ 1 ],
+  "passedScenarios" : [ 4 ],
+  "failedScenarios" : [ 0 ],
+  "totalScenarios" : [ 4 ],
+  "passedSteps" : [ 15 ],
+  "failedSteps" : [ 0 ],
+  "skippedSteps" : [ 0 ],
+  "pendingSteps" : [ 0 ],
+  "undefinedSteps" : [ 0 ],
+  "totalSteps" : [ 15 ],
+  "durations" : [ 16518194100 ]
+}
