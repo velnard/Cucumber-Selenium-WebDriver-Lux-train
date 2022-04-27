@@ -38,14 +38,12 @@ public class SolutionSteps {
         //Auxillary.driver.navigate().to("https://www.luxoft-training.ru/");
         Assertions.assertEquals("https://www.luxoft-training.ru/",pages.get(PageAlias.byDescription(arg0))
                 .get().getURL());
-        driverRightNow=arg0;
     }
 
     @When("user clicks on {string}")
     public void userClicksOn(String arg0) {
                 Auxillary.driver = pages.get(PageAlias.byDescription(driverRightNow))
                         .get().moveToPage(arg0);
-                driverRightNow=arg0;
     }
 
     @Then("^this buttons (displayed|not displayed) on '([^']*)' webpage$")
